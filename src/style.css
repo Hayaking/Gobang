@@ -1,6 +1,7 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  background-color: rgb(200, 255, 200);
 }
 
 ol, ul {
@@ -19,7 +20,7 @@ ol, ul {
 
 .square {
   position: relative;
-  background: #fff;
+  background-color: rgb(200, 255, 200);
   border: 1px solid #999;
   float: left;
   font-size: 24px;
@@ -50,17 +51,14 @@ ol, ul {
 .kbd-navigation .square:focus {
   background: #ddd;
 }
-
-.game {
-  position: relative;
-  display: flex;
-  flex-flow: row wrap;
+.game-board{
+    text-align: center;
 }
 
 .game-info {
-  margin-left: 20px;
-  display: flex;
-  flex-flow: column wrap;
-  flex: 1;
+  margin-left: 100px;
 }
 
+.game{
+    background-color: rgb(200, 255, 200);
+}

@@ -1,10 +1,9 @@
-import React,{PropTypes, Component} from 'react' ;
+import React, {PropTypes, Component} from 'react' ;
 import {render} from 'react-dom';
 
-import './style.scss';
-import Game from './components/Game';
+import './style.css';
+import Game from './components/NewGame';
 
 const container = document.getElementById('react-app');
-
-render(<Game col={15} row={15}/>, container);
+render(<Game col={17} row={17}/>, container);
 
